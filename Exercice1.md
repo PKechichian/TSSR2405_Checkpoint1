@@ -1,7 +1,8 @@
 1. `su -`
 2. `fdisk -l`
 #### Créer les partitions
-3. fdisk /dev/sdb
+3. `fdisk /dev/sdb`
+   
 ![blkid](https://github.com/PKechichian/TSSR2405_Checkpoint1/blob/main/images/Partitions.png)
 
 #### Configurer les partitions
