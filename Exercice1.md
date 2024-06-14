@@ -25,9 +25,9 @@ Ajouter les lignes suivantes à la fin (utiliser la commande `blkid` pour trouve
 ![fstab](https://github.com/PKechichian/TSSR2405_Checkpoint1/blob/main/images/fstab.png)
 
 #### Activer la partition SWAP
-9. `swapoff -a`
-10. `swapon /dev/sdb2`
-11. `swapon --show`
+9. Désactiver tous les SWAP : `swapoff -a`
+10. Activer le SWAP souhaité : `swapon /dev/sdb2`
+11. Vérifier : `swapon --show`
 
 ![finalfdisk](https://github.com/PKechichian/TSSR2405_Checkpoint1/blob/main/images/fdisk_final.png)
 
