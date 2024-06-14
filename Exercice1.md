@@ -15,7 +15,7 @@
 #### Modifier les fichier fstab pour démarrage auto
 8. `nano /etc/fstab`
    
-Ajouter les lignes suivantes à la fin (utiliser la commande `blkid` pour les trouver)
+Ajouter les lignes suivantes à la fin (utiliser la commande `blkid` pour trouver les UUID)
 
 - UUID=XXX  /mnt/data  ext4  defaults  0  2
 - UUID=XXX  none  swap  sw  0  0
