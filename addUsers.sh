@@ -1,4 +1,4 @@
-# Fonctionnel mais message d'erreur "/dev/null : permission denied". Les utilisateurs sont bien crées néanmoins
+# **Fonctionnel mais message d'erreur "/dev/null : permission denied". Les utilisateurs sont bien créés et les doublons sont reconnus néanmoins.**
 #!/bin/bash
 
 # Vérification de la présence d'arguments
